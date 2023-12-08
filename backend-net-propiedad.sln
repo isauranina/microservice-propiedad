@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservice-propiedad", "microservice-propiedad", "{2CE9F4BD-B89E-4363-B4A9-2B53D49F7009}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CE9F4BD-B89E-4363-B4A9-2B53D49F7009}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{5294C5BA-091B-4887-9081-1FC8EB270800}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{8B744D6A-5B59-4B3B-9635-A68266D6D845}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{2DF09A79-C9A1-42EA-B511-7AF75FA8601C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4DD96048-8BE2-4142-B18D-1DB65E824551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application .UnitTests", "Application .UnitTests\Application .UnitTests.csproj", "{7713F23D-7F94-4037-A09E-4A29C0E15FE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{2DF09A79-C9A1-42EA-B511-7AF75FA8601C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF09A79-C9A1-42EA-B511-7AF75FA8601C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF09A79-C9A1-42EA-B511-7AF75FA8601C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7713F23D-7F94-4037-A09E-4A29C0E15FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7713F23D-7F94-4037-A09E-4A29C0E15FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7713F23D-7F94-4037-A09E-4A29C0E15FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7713F23D-7F94-4037-A09E-4A29C0E15FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{AD0DFAE6-C99D-479A-8018-3289B6B44B31} = {2CE9F4BD-B89E-4363-B4A9-2B53D49F7009}
 		{8B744D6A-5B59-4B3B-9635-A68266D6D845} = {2CE9F4BD-B89E-4363-B4A9-2B53D49F7009}
 		{2DF09A79-C9A1-42EA-B511-7AF75FA8601C} = {2CE9F4BD-B89E-4363-B4A9-2B53D49F7009}
+		{7713F23D-7F94-4037-A09E-4A29C0E15FE7} = {4DD96048-8BE2-4142-B18D-1DB65E824551}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C9CE229-1A3D-45E7-A2AA-BC1ACE8891ED}
