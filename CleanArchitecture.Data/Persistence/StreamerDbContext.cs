@@ -20,12 +20,12 @@ namespace CleanArchitecture.Infrastructure.Persistence
                 switch (entry.State)
                 { 
                     case EntityState.Added:
-                        entry.Entity.CreatedDate =  DateTime.Now;
+                       // entry.Entity.CreatedDate =  DateTime.Now;
                         entry.Entity.CreatedBy = "system";
                         break;
 
                     case EntityState.Modified:
-                        entry.Entity.LastModifiedDate = DateTime.Now;
+                        //entry.Entity.LastModifiedDate = DateTime.Now;
                         entry.Entity.LastModifiedBy = "system";
                         break;
                 }

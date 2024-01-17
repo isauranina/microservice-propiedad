@@ -43,3 +43,18 @@ C:\sistemas\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\Cle
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\refint\CleanArchitecture.Application.dll
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.pdb
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\ref\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.deps.json
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.pdb
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.pdb
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CopyComplete
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\refint\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.pdb
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application\obj\Debug\net6.0\ref\CleanArchitecture.Application.dll

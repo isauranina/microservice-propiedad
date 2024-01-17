@@ -1,5 +1,4 @@
 ﻿
-using CleanArchitecture.Domain;
 using CleanArchitecture.Domain.Common;
 using CleanArchitecture.Domain.Models.sgp;
 using Microsoft.EntityFrameworkCore;
@@ -25,12 +24,12 @@ namespace CleanArchitecture.Infrastructure.Persistence
                     switch (entry.State)
                     {
                          case EntityState.Added:
-                              entry.Entity.CreatedDate = DateTime.Now;
+                             // entry.Entity.CreatedDate = DateTime.Now;
                               entry.Entity.CreatedBy = "system";
                               break;
 
                          case EntityState.Modified:
-                              entry.Entity.LastModifiedDate = DateTime.Now;
+                              //entry.Entity.LastModifiedDate = DateTime.Now;
                               entry.Entity.LastModifiedBy = "system";
                               break;
                     }
@@ -45,15 +44,15 @@ namespace CleanArchitecture.Infrastructure.Persistence
 
           }
         // public DbSet<Servicio>? Servicios => Set<Servicio>();
-        public DbSet<Servicio>? Servicios { get; set; }
-          public DbSet<Pais>? Pais { get; set; }
-          public DbSet<TipoEstado>? TipoEstado{ get; set; }       
-          public DbSet<TipoPropiedad>? TipoPropidad { get; set; }
-          public DbSet<Ciudad>? Ciudad { get; set; }
-          public DbSet<Agenda>? Agenda { get; set; }
-          public DbSet<DetalleServicio>? DetalleServicio { get; set; }
+        //public DbSet<Servicio>? Servicios { get; set; }
+        //  public DbSet<Pais>? Pais { get; set; }
+        //  public DbSet<TipoEstado>? TipoEstado{ get; set; }       
+        //  public DbSet<TipoPropiedad>? TipoPropidad { get; set; }
+        //  public DbSet<Ciudad>? Ciudad { get; set; }
+        //  public DbSet<Agenda>? Agenda { get; set; }
+        //  public DbSet<DetalleServicio>? DetalleServicio { get; set; }
           public DbSet<Propiedad>? Propiedad { get; set; }
-          public DbSet<ReglasCasa>? ReglasCasa { get; set; }
+         // public DbSet<ReglasCasa>? ReglasCasa { get; set; }
 
 
 

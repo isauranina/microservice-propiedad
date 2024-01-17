@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.DeletePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.DeletePropiedad
 {
      public class DeletePropiedadCommandHandler : IRequestHandler<DeletePropiedadCommand>
      {

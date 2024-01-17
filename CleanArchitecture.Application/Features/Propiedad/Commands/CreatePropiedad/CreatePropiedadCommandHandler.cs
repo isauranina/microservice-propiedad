@@ -8,7 +8,7 @@ using CleanArchitecture.Domain.Models.sgp;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.CreatePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.CreatePropiedad
 {
      public class CreatePropiedadCommandHandler : IRequestHandler<CreatePropiedadCommand, long>
      {
@@ -35,7 +35,7 @@ namespace CleanArchitecture.Application.Features.Propiedad.Commands.CreatePropie
                var newPropiedad = await _propiedadRepository.AddAsync(propiedadEntity);
                return newPropiedad.Id;
           }
-          private async Task SendEmail(Streamer streamer)
+          private async Task SendEmail(Domain.Models.sgp.Propiedad propiedad)
           {
                var email = new Email
                {
@@ -50,7 +50,7 @@ namespace CleanArchitecture.Application.Features.Propiedad.Commands.CreatePropie
                }
                catch (Exception ex)
                {
-                    _logger.LogError($"El envio de Email no tubo exito {streamer.Id}");
+                    _logger.LogError($"El envio de Email no tubo exito {propiedad.Id}");
                }
 
           }

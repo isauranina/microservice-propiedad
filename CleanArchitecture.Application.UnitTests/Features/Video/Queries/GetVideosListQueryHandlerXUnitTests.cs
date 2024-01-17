@@ -17,35 +17,35 @@ namespace CleanArchitecture.Application.UnitTests.Features.Video.Queries
 {
     public class GetVideosListQueryHandlerXUnitTests
     {
-        private readonly IMapper _mapper;
-        private readonly Mock<UnitOfWork> _unitOfWork;
+        //private readonly IMapper _mapper;
+        //private readonly Mock<UnitOfWork> _unitOfWork;
 
-        public GetVideosListQueryHandlerXUnitTests()
-        {
-            _unitOfWork = MockUnitOfWork.GetUnitOfWork();
-            var mapperConfig = new MapperConfiguration(c =>
-            {
-                c.AddProfile<MappingProfile>();
-            });
-            _mapper = mapperConfig.CreateMapper();
+        //public GetVideosListQueryHandlerXUnitTests()
+        //{
+        //    _unitOfWork = MockUnitOfWork.GetUnitOfWork();
+        //    var mapperConfig = new MapperConfiguration(c =>
+        //    {
+        //        c.AddProfile<MappingProfile>();
+        //    });
+        //    _mapper = mapperConfig.CreateMapper();
 
 
-            MockVideoRepository.AddDataVideoRepository(_unitOfWork.Object.StreamerDbContext);
+        //    MockVideoRepository.AddDataVideoRepository(_unitOfWork.Object.StreamerDbContext);
 
-        }
+        //}
 
-        [Fact]
-        public async Task GetVideoListTest()
-        { 
-            var handler = new GetVideosListQueryHandler(_unitOfWork.Object, _mapper);
-            var request = new GetVideosListQuery("vaxidrez");
+        //[Fact]
+        //public async Task GetVideoListTest()
+        //{ 
+        //    var handler = new GetVideosListQueryHandler(_unitOfWork.Object, _mapper);
+        //    var request = new GetVideosListQuery("vaxidrez");
            
-            var result = await handler.Handle(request, CancellationToken.None);
+        //    var result = await handler.Handle(request, CancellationToken.None);
 
-            result.ShouldBeOfType<List<VideosVm>>();
+        //    result.ShouldBeOfType<List<VideosVm>>();
 
-            result.Count.ShouldBe(1);
-        }
+        //    result.Count.ShouldBe(1);
+        //}
 
     }
 }

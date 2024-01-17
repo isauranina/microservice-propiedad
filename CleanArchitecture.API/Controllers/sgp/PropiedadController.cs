@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Features.Propiedad.Commands.CreatePropiedad;
-using CleanArchitecture.Application.Features.Propiedad.Commands.DeletePropiedad;
-using CleanArchitecture.Application.Features.Propiedad.Commands.UpdatePropiedad;
+﻿using CleanArchitecture.Application.Features.Propiedades.Commands.CreatePropiedad;
+using CleanArchitecture.Application.Features.Propiedades.Commands.DeletePropiedad;
+using CleanArchitecture.Application.Features.Propiedades.Commands.UpdatePropiedad;
 using CleanArchitecture.Application.Features.Streamers.Commands;
 using CleanArchitecture.Application.Features.Streamers.Commands.DeleteStreamer;
 using MediatR;

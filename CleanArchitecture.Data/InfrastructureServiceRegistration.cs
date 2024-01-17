@@ -36,7 +36,7 @@ namespace CleanArchitecture.Infrastructure
 
 
                services.AddScoped<IUnitOfWork, UnitOfWork>();
-               services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
+             //  services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
                services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBasePgsql<>));
 
               // services.AddScoped<IVideoRepository, VideoRepository>();

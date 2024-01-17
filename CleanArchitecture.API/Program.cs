@@ -25,16 +25,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddApplicationServices();
-builder.Services.ConfigureIdentityServices(builder.Configuration);
+//builder.Services.ConfigureIdentityServices(builder.Configuration);
 
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    );
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
+//    .AllowAnyMethod()
+//    .AllowAnyHeader()
+//    );
+//});
 
 var app = builder.Build();
 
@@ -45,13 +45,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ExceptionMiddleware>();
+//app.UseMiddleware<ExceptionMiddleware>();
 
-app.UseAuthentication();
+///app.UseAuthentication();
 
 app.UseAuthorization();
 
-app.UseCors("CorsPolicy");
+//app.UseCors("CorsPolicy");
 
 app.MapControllers();
 

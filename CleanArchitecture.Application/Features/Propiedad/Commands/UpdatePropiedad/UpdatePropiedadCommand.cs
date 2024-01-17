@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.UpdatePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.UpdatePropiedad
 {
      public class UpdatePropiedadCommand:IRequest
      {

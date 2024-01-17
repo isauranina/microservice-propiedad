@@ -757,3 +757,8 @@ C:\sistemas\CleanArchitecture\CleanArchitecture.Application.UnitTests\obj\Debug\
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\refint\CleanArchitecture.Application.UnitTests.dll
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.genruntimeconfig.cache
 C:\sistemas\CleanArchitecture\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\ref\CleanArchitecture.Application.UnitTests.dll
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.csproj.AssemblyReference.cache
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.AssemblyInfoInputs.cache
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.AssemblyInfo.cs
+C:\sistemas\proyecto modulo7\microservice-propiedad\CleanArchitecture.Application.UnitTests\obj\Debug\net6.0\CleanArchitecture.Application.UnitTests.csproj.CoreCompileInputs.cache

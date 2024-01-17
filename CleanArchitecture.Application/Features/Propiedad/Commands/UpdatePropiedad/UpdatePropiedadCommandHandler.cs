@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CleanArchitecture.Application.Contracts.Persistence;
 using CleanArchitecture.Application.Exceptions;
-using CleanArchitecture.Application.Features.Propiedad.Commands.DeletePropiedad;
+using CleanArchitecture.Application.Features.Propiedades.Commands.DeletePropiedad;
 using CleanArchitecture.Application.Features.Streamers.Commands.UpdateStreamer;
 using CleanArchitecture.Domain;
 using CleanArchitecture.Domain.Models.sgp;
@@ -9,7 +9,7 @@ using MediatR;
 using Microsoft.Extensions.Logging;
 
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.UpdatePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.UpdatePropiedad
 {
      public  class UpdatePropiedadCommandHandler: IRequest<UpdatePropiedadCommand>
      {

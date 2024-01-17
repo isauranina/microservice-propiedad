@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {}
+    "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {
+    "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
+        "projectUniqueName": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
         "projectName": "CleanArchitecture.Application.UnitTests",
-        "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
+        "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application.UnitTests\\CleanArchitecture.Application.UnitTests.csproj",
         "packagesPath": "C:\\Users\\inina\\.nuget\\packages\\",
-        "outputPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application.UnitTests\\obj\\",
+        "outputPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
               },
-              "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
-                "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj"
+              "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+    "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectUniqueName": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "projectName": "CleanArchitecture.Application",
-        "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "packagesPath": "C:\\Users\\inina\\.nuget\\packages\\",
-        "outputPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\obj\\",
+        "outputPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,8 +126,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -187,14 +187,14 @@
         }
       }
     },
-    "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
+    "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
+        "projectUniqueName": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
         "projectName": "CleanArchitecture.Infrastructure",
-        "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
+        "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\CleanArchitecture.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\inina\\.nuget\\packages\\",
-        "outputPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Data\\obj\\",
+        "outputPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -211,8 +211,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
               }
             }
           }
@@ -280,14 +280,14 @@
         }
       }
     },
-    "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\inina\\.nuget\\packages\\",
-        "outputPath": "C:\\sistemas\\CleanArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "C:\\sistemas\\proyecto modulo7\\microservice-propiedad\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inina\\AppData\\Roaming\\NuGet\\NuGet.Config",

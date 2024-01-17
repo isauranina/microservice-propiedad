@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.UpdatePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.UpdatePropiedad
 {
      public class UpdatePropiedadCommandValidator: AbstractValidator<UpdatePropiedadCommand>
      {

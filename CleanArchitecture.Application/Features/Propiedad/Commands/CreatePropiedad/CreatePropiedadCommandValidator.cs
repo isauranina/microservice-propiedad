@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 
 
-namespace CleanArchitecture.Application.Features.Propiedad.Commands.CreatePropiedad
+namespace CleanArchitecture.Application.Features.Propiedades.Commands.CreatePropiedad
 {
      public class CreatePropiedadCommandValidator:AbstractValidator<CreatePropiedadCommand>
      {
